@@ -22,8 +22,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: end;
-    margin-right: 2%;
+    flex-direction: row-reverse;
 }
 
 #nav a {
