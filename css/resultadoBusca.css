@@ -47,8 +47,7 @@ body {
 .rounded-pill{
     font-family: Play !important;
     margin-top: 5vw;
-    color: #000000;
-    background-color: #E1E1E1 !important;
+    color: #ffffff;
     font-family: Play;
     font-size: 20px !important;
 }
@@ -57,7 +56,7 @@ body {
     width: 60%;
     height: 90vh;
     background-color:#E1E1E1;
-    margin: 5% auto 20% auto;
+    margin: 5% auto 8% auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +85,9 @@ body {
     background-color: #E1E1E1 !important;
     border: 2px solid #E1E1E1 !important;
     color: #000000 !important;
-    margin: 0 auto 0 auto
+    margin: 0 auto 0 auto;
+    font-size: 13px !important;
+    max-width: 60%;
 }
 
 @media only screen and (max-width:500px) {
@@ -103,5 +104,10 @@ body {
 
     .card-text {
         font-size: 8px;
+    }
+
+    .btn-primary{
+        font-size: 10px !important;
+        max-width: 60%;
     }
 }
