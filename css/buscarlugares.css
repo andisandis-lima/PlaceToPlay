@@ -4,19 +4,23 @@
     text-decoration: none;
     box-sizing: border-box;    
 }
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 /* Menu */ 
 
 #menu {
     display: flex;
-    background-color: #E1E1E1;
-   
+    background-color: #E1E1E1
 }
 
 #logo {
     width: 15%;
     margin-left: 1%;
-    margin-top: 0;
-    
+    margin-top: 0
 }
 
 #nav {
@@ -36,7 +40,18 @@
     font-size: 16px;
     background-color: #ffffff;
 }
+/* Corpo do Site*/
 
+/*Titulo do site "Jogos Perto de Voce*/
+.rounded-pill{
+    font-family: Play !important;
+    margin-top: 5vw;
+    color: #ffffff;
+    font-family: Play;
+    font-size: 25px !important;
+}
+
+/*quadrado cinza de fundo*/
 .fundo {
     width: 60%;
     height: 90vh;
@@ -45,13 +60,74 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: Play;
+}
+
+/*formulario*/
+.fundo form {
+    margin-top: 30px;
+    font-family: Play;
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*botao buscar*/
+#singlebutton {
+    font-size: 25px !important;
+    font-family: Play;
+    padding: 0 10px
+}
+
+/* botao participar do jogo e buscar*/
+.btn-primary{
+    background-color: #E1E1E1 !important;
+    border: 1px solid #000000 !important;
+    color: #000000 !important;
+    margin: 0 auto 0 auto;
+    font-size: 13px !important;
+    
+    padding: 10px;
+}
+
+/*botao buscar*/
+#buscar {
+    margin-bottom: 10%;
+}
+
+/*icones redes socias do footer*/
+.icones {
+    color: #000000;
+}
+
+.icones i {
+    margin: 1% 1%;
 }
 
 @media only screen and (max-width:500px) {
     /*texto do menu*/
     #nav a {
         font-size: 8px; 
+    }
+
+     /*titulo*/
+    .rounded-pill{
+    font-size: 16px !important
+    }
+
+    /* botao participar do jogo e voltar*/
+    .btn-primary{
+        font-size: 10px !important;
+        max-width: 60%;
+    }
+    
+    /*botao voltar*/
+    #singlebutton {
+        font-size: 15px !important;
+        font-family: Play;
     }
 }
