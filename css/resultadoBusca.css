@@ -39,7 +39,7 @@ body {
     padding: 0.5%;
     margin: 2%;
     font-family: Play;
-    font-size: 14px;
+    font-size: 15px;
     background-color: #ffffff;
 }
 
@@ -121,5 +121,10 @@ footer i {
     .btn-primary{
         font-size: 10px !important;
         max-width: 60%;
+    }
+    
+    #singlebutton {
+        font-size: 15px !important;
+        font-family: Play;
     }
 }
