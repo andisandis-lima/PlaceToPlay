@@ -45,6 +45,7 @@ body {
 
 /* Corpo do Site*/
 
+/*Titulo do site "Jogos Perto de Voce*/
 .rounded-pill{
     font-family: Play !important;
     margin-top: 5vw;
@@ -53,6 +54,7 @@ body {
     font-size: 25px !important;
 }
 
+/*quadrado cinza de fundo*/
 .fundo {
     width: 60%;
     height: 90vh;
@@ -67,6 +69,7 @@ body {
     border-radius: 10px;
 }
 
+/*card de informacoes*/
 .card {
     margin-top: 30px;
     align-items: center;
@@ -74,32 +77,39 @@ body {
     display: flex;
 }
 
+/*botao voltar*/
 #singlebutton {
     font-size: 25px !important;
     font-family: Play;
 }
 
+/*imagem dentro card*/
 .card-img-top {
     max-width: 60%;
 }
 
-
+/* botao participar do jogo e voltar*/
 .btn-primary{
     background-color: #E1E1E1 !important;
-    border: 2px solid #E1E1E1 !important;
+    border: 1px solid #000000 !important;
     color: #000000 !important;
     margin: 0 auto 0 auto;
     font-size: 13px !important;
     max-width: 60%;
 }
 
-footer i {
-    color:#000000;
-    padding: 10px 20px;
-}
-
+/*botao voltar*/
 #voltar {
     margin-bottom: 10%;
+}
+
+/*icones redes socias do footer*/
+.icones {
+    color: #000000;
+}
+
+.icones i {
+    margin: 1% 1%;
 }
 
 @media only screen and (max-width:500px) {
@@ -117,12 +127,14 @@ footer i {
     .card-text {
         font-size: 8px;
     }
-
+    
+    /* botao participar do jogo e voltar*/
     .btn-primary{
         font-size: 10px !important;
         max-width: 60%;
     }
-    
+
+    /*botao voltar*/
     #singlebutton {
         font-size: 15px !important;
         font-family: Play;
