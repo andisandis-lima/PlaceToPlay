@@ -9,6 +9,7 @@
 body {
     overflow-y: scroll;
     overflow-x: hidden;
+    
 }
 
 #menu {
@@ -49,19 +50,21 @@ body {
     margin-top: 5vw;
     color: #ffffff;
     font-family: Play;
-    font-size: 20px !important;
+    font-size: 25px !important;
 }
 
 .fundo {
     width: 60%;
     height: 90vh;
     background-color:#E1E1E1;
-    margin: 5% auto 8% auto;
+    margin: 2% auto 4% auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-y: scroll;
     overflow-x: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .card {
@@ -72,14 +75,14 @@ body {
 }
 
 #singlebutton {
-
+    font-size: 25px !important;
     font-family: Play;
 }
 
 .card-img-top {
     max-width: 60%;
-   
 }
+
 
 .btn-primary{
     background-color: #E1E1E1 !important;
@@ -88,6 +91,15 @@ body {
     margin: 0 auto 0 auto;
     font-size: 13px !important;
     max-width: 60%;
+}
+
+footer i {
+    color:#000000;
+    padding: 10px 20px;
+}
+
+#voltar {
+    margin-bottom: 10%;
 }
 
 @media only screen and (max-width:500px) {

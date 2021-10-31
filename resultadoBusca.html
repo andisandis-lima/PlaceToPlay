@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/resultadoBusca.css">
 
+    <!--Icones do FontAwesome-->
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
     <!--Fonte Play importada do Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +19,7 @@
 
     <title>Resultado</title>
 </head>
-<body>
+<main>
     <header>
 
         <div id="menu">
@@ -44,17 +47,27 @@
             <div class="card" style="width: 90%;">
                 <img class="card-img-top" src="./img/logoPlaceToPlay.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
-                  <h5 class="card-title">Título do card</h5>
-                  <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                  <h5 class="card-title">Basquete - 25/10/2021 às 21:00</h5>
+                  <p class="card-text" id="infos">
+                    Rua Tal, N° 10,
+                    Bairro Centro,
+                    CEP 07151-522,             
+                    Quadra do SESC.
+                </p>
                   <a href="#" class="btn btn-primary">Participar do Jogo</a>
                 </div>
             </div>
 
             <div class="card" style="width: 90%;">
-                <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+                <img class="card-img-top" src="./img/logoPlaceToPlay2.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
-                  <h5 class="card-title">Título do card</h5>
-                  <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                  <h5 class="card-title">Volei - 25/10/2021 às 21:00</h5>
+                  <p class="card-text">
+                    Rua Tal, N° 10,
+                    Bairro Centro,
+                    CEP 07151-522,             
+                    Quadra do SESC.
+                  </p>
                   <a href="#" class="btn btn-primary">Participar do Jogo</a>
                 </div>
             </div>
@@ -62,91 +75,36 @@
             <div class="card" style="width: 90%;">
                 <img class="card-img-top" src="./img/logoPlaceToPlay.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
-                  <h5 class="card-title">Título do card</h5>
-                  <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                  <h5 class="card-title">Futebol - 25/10/2021 às 21:00</h5>
+                  <p class="card-text">
+                    Rua Tal, N° 10,
+                    Bairro Centro,
+                    CEP 07151-522,             
+                    Quadra do SESC.
+                  </p>
                   <a href="#" class="btn btn-primary">Participar do Jogo</a>
                 </div>
             </div>
         </div>   
 
         <!--Botão voltar-->
-        <div class="col-md-auto text-center"> 
+        <div class="col-md-auto text-center" id="voltar" > 
             <button id="singlebutton" name="singlebutton" class="btn btn-primary">Voltar</button>
         </div>
     </main>
-    <footer>
-        <footer class="text-center text-white" style="background-color: #f1f1f1;">
-                <!-- Grid container -->
-                <div class="container pt-4">
-                <!-- Section: Social media -->
-                <section class="mb-4">
-                    <!-- Facebook -->
-                    <a
-                    class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
-                    ><i class="fab fa-facebook-f"></i
-                    ></a>
-            
-                    <!-- Twitter -->
-                    <a
-                    class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
-                    ><i class="fab fa-twitter"></i
-                    ></a>
-            
-                    <!-- Google -->
-                    <a
-                    class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
-                    ><i class="fab fa-google"></i
-                    ></a>
-            
-                    <!-- Instagram -->
-                    <a
-                    class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
-                    ><i class="fab fa-instagram"></i
-                    ></a>
-            
-                    <!-- Linkedin -->
-                    <a
-                    class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
-                    ><i class="fab fa-linkedin"></i
-                    ></a>
-                    <!-- Github -->
-                    <a
-                    class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="#!"
-                    role="button"
-                    data-mdb-ripple-color="dark"
-                    ><i class="fab fa-github"></i
-                    ></a>
-                </section>
-                <!-- Section: Social media -->
-                </div>
-                <!-- Grid container -->
-            
-                <!-- Copyright -->
-                <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2020 Copyright:
-                <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-                </div>
-                <!-- Copyright -->
-          </footer>
-
-     </footer>
-
+    <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.1);">
+        
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-github-square fa-2x"></i>
+         
+        
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2); font-family: Play;">
+          © 2021 Copyright
+          <a class="text-dark" href="a" ></a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
 <!--JavaScript do Bootstrap-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
