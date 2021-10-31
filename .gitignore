@@ -42,6 +42,7 @@ build/Release
 node_modules/
 jspm_packages/
 bootstrap-4.1.3-dist
+fontawesome
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
