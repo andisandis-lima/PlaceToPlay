@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/buscarlugares.css">
+
+    <!--Icones do FontAwesome-->
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+
+    <!--Fonte Play importada do Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+    <!--Css do Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Criar Jogo</title>
+</head>
+<body>
+    <header>
+
+        <div id="menu">
+            <img id="logo" src="./img/logoPlaceToPlay2.jpg" alt="logo do site">
+            <nav id="nav">
+                <a href="a">Cadastro/Login</a>
+                <a href="a">Lugares</a>
+                <a href="a">Jogos</a>
+                <a href="a">Como Funciona</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+         <!--Titulo da Página-->
+         <div class="row justify-content-center">
+            <div class="col-auto">
+                <h1><span class="badge rounded-pill bg-success">Crie um Jogo</span></h1>
+            </div>
+        </div>
+
+        <div class="fundo">
+            <!--Formulário-->
+            <form>
+                   
+                    <div class="col-3">
+                        <label for="formGroupExampleInput"></label>
+                        <input type="text" class="form-control" 
+                        id="formGroupExampleInput" placeholder="CEP">
+                    </div>
+
+                    <div class="col-2">
+                        <label for="formGroupExampleInput"></label>
+                        <input type="text" class="form-control" 
+                        id="formGroupExampleInput" placeholder="N°">
+                    </div>
+                    
+
+                    <div class="col-5">
+                        <label for="formGroupExampleInput"></label>
+                        <input type="text" class="form-control" 
+                        id="formGroupExampleInput" placeholder="Bairro">
+                    </div>
+                    
+                
+                    <div class="col-7">
+                        <label for="formGroupExampleInput"><br></label>
+                        <input type="text" class="form-control" 
+                        id="formGroupExampleInput" placeholder="Cidade">
+                    </div>
+                   
+                    <div class="col-3">
+                        <label for="exampleFormControlSelect1">Estado:</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>SP</option>
+                          <option>RJ</option>
+                          <option>BA</option>
+                          
+                        </select>
+                     </div>
+                   
+                    <div class="col-4">
+                        <label for="formGroupExampleInput"><br></label>                        
+                        <input type="text" class="form-control" 
+                        id="formGroupExampleInput" placeholder="Nome do Lugar">                    
+                    </div>
+                                      
+                    <div class="col-3">
+                        <label for="formGroupExampleInput"><br></label>
+                        <input type="text" class="form-control" 
+                        id="formGroupExampleInput" placeholder="Data">
+                    </div>
+
+                    <div class="col-3">
+                        <label for="formGroupExampleInput"><br></label>
+                        <input type="text" class="form-control" 
+                        id="formGroupExampleInput" placeholder="Horário">
+                    </div>
+                    
+                    <div class="form-group col-5">
+                        <label for="exampleFormControlSelect1">Esporte</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Futebol</option>
+                          <option>Basquete</option>
+                          <option>Volêi</option>
+                          
+                        </select>
+                    </div>
+
+                    <div class="form-group col-5">
+                        <label for="exampleFormControlSelect1">N° de Participantes</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          
+                        </select>
+                    </div>
+            </form>  
+            </form>  
+              <!--Botão Buscar-->
+         <div class="col-md-auto text-center" id="buscar" > 
+            <button id="singlebutton" name="singlebutton" class="btn btn-primary">Criar</button>
+        </div>
+
+        </div>
+
+         
+    </main>
+    <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.1);">
+       
+        <div class="icones">
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-github-square fa-2x"></i>
+        </div>
+        
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2); font-family: Play;">
+          © 2021 Copyright
+          <a class="text-dark" href="a" ></a>
+        </div>
+    </footer>
+<!--JavaScript do Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
