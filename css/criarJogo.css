@@ -54,7 +54,7 @@ body {
 /*quadrado cinza de fundo*/
 .fundo {
     width: 60%;
-    height: 90vh;
+    height: 60vh;
     background-color:#E1E1E1;
     margin: 5% auto 8% auto;
     display: flex;
@@ -65,14 +65,8 @@ body {
 }
 
 /*formulario*/
-.fundo form {
-    margin-top: 30px;
-    font-family: Play;
-    height: 90vh;
-    width: 90vh;
-    display: flex;
-    flex-wrap: wrap;
-   
+#formulario {
+    font-size: 2010px;
 }
 
 /*botao criar*/
@@ -113,4 +107,5 @@ body {
         font-size: 15px !important;
         font-family: Play;
     }
+
 }

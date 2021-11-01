@@ -45,7 +45,7 @@ body {
 
 /* Corpo do Site*/
 
-/*Titulo do site "Jogos Perto de Voce*/
+/*Titulo do site "Jogo Criado, O que deseja fazer?*/
 .rounded-pill{
     font-family: Play !important;
     margin-top: 5vw;
@@ -57,9 +57,9 @@ body {
 /*quadrado cinza de fundo*/
 .fundo {
     width: 60%;
-    height: 90vh;
+    height: 80%;
     background-color:#E1E1E1;
-    margin: 2% auto 6% auto;
+    margin: 2% auto 4% auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,38 +71,28 @@ body {
 
 /*card de informacoes*/
 .card {
-    display: flex;
-    align-items: center;
     margin-top: 30px;
-    margin-bottom: 10%;
-    font-family: Play
+    align-items: center;
+    font-family: Play;
+    display: flex;
 }
 
 
 /*imagem dentro card*/
 .card-img-top {
     max-width: 60%;
-   
 }
 
-/* botao Participar Do Jogo*/
-.btn-primary1 {
+/*botao voltar E Editar e Confirmar*/
+.btn-primary{
     background-color: #E1E1E1 !important;
     border: 1px solid #000000 !important;
     color: #000000 !important;
+    font-size: 13px;
+    max-width: 60%;
+    font-size: 20px !important;
     font-family: Play;
-    font-size: 15px !important;
-    margin-bottom: 10%;
-}
-
-/*botao Voltar*/
-#singlebutton {
-    background-color: #E1E1E1 !important;
-    border: 1px solid #000000 !important;
-    color: #000000 !important;
-    font-family: Play;
-    font-size: 15px !important;
-    margin-bottom: 10%;
+    margin: 10% 20px 20px 0;
 }
 
 /*icones redes socias do footer*/
@@ -122,27 +112,24 @@ body {
 
     /*titulo*/
     .rounded-pill{
-        font-size: 16px !important
+    font-size: 16px !important
     }
 
-    /*texto dentro do card, abaixo da foto*/
+
     .card-text {
         font-size: 8px;
     }
     
-    /* botao participar do jogo*/
-    .btn-primary1 {
-        font-size: 8px !important;
-        font-family: Play;
-    }
-
-    /*botao voltar*/
-    #singlebutton {
-        font-size: 8px !important;
-        font-family: Play;
-        font-size: 10px !important;
-        margin-bottom: 10%;
-    }
     
+    /*botao Editar e Confirmar*/
+    #singlebutton {
 
+        max-width: 60%;
+        font-size: 8px !important;
+        font-family: Play;  
+    }
+    .fundo {
+      max-height: 500px;
+      padding: 0;
+    }
 }

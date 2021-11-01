@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/resultadoBusca.css">
+    <link rel="stylesheet" href="./css/confirmacaoJogo.css">
 
     <!--Icones do FontAwesome-->
     <link href="fontawesome/css/all.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <!--Css do Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Resultado</title>
+    <title>Jogo Criado</title>
 </head>
 <main>
     <header>
@@ -38,7 +38,7 @@
          <!--Titulo da Página-->
         <div class="row justify-content-center">
             <div class="col-auto">
-                <h1><span class="badge rounded-pill bg-success">Jogos Perto de Você</span></h1>
+                <h1><span class="badge rounded-pill bg-success">Jogo Criado<br>O Que Deseja Fazer?</span></h1>
             </div>
         </div>
 
@@ -49,48 +49,29 @@
                 <div class="card-body">
                   <h5 class="card-title">Basquete - 25/10/2021 às 21:00</h5>
                   <p class="card-text" id="infos">
-                    Rua Tal, N° 10,
-                    Bairro Centro,
-                    CEP 07151-522,             
-                    Quadra do SESC.
+                    Rua Tal, N° 10,<br>
+                    Bairro Centro, <br>
+                    CEP 07151-522, <br>        
+                    Quadra do SESC. <br>
                 </p>
-                  <a href="#" class="btn btn-primary1">Participar do Jogo</a>
-                </div>
+                 
             </div>
 
-            <div class="card" style="width: 90%;">
-                <img class="card-img-top" src="./img/logoPlaceToPlay2.jpg" alt="Imagem de capa do card">
-                <div class="card-body">
-                  <h5 class="card-title">Volei - 25/10/2021 às 21:00</h5>
-                  <p class="card-text">
-                    Rua Tal, N° 10,
-                    Bairro Centro,
-                    CEP 07151-522,             
-                    Quadra do SESC.
-                  </p>
-                  <a href="#" class="btn btn-primary1">Participar do Jogo</a>
-                </div>
+            
             </div>
-
-            <div class="card" style="width: 90%;">
-                <img class="card-img-top" src="./img/logoPlaceToPlay.jpg" alt="Imagem de capa do card">
-                <div class="card-body">
-                  <h5 class="card-title">Futebol - 25/10/2021 às 21:00</h5>
-                  <p class="card-text">
-                    Rua Tal, N° 10,
-                    Bairro Centro,
-                    CEP 07151-522,             
-                    Quadra do SESC. 
-                  </p>
-                  <a href="#" class="btn btn-primary1">Participar do Jogo</a>
-                </div>
+            <div class="col-md-auto text-center" id="voltar" > 
+              
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Editar</button>
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Confirmar</button>
+           
             </div>
-        </div>        
+            
+        </div> 
 
         <!--Botão voltar-->
-        <div class="col-md-auto text-center"> 
-            <button id="singlebutton" name="singlebutton" class="btn btn-primary">Voltar</button>
-        </div>
+ 
+            
+        
     </main>
 
     <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.1);">
