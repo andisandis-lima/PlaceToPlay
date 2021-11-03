@@ -54,11 +54,11 @@ body {
 /*quadrado cinza de fundo*/
 .fundo {
     width: 60%;
-    height: 60vh;
+    height: 90%;
     background-color:#E1E1E1;
     margin: 5% auto 8% auto;
     display: flex;
-   
+    flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     font-family: Play;
@@ -66,14 +66,41 @@ body {
 
 /*formulario*/
 #formulario {
-    font-size: 2010px;
+    font-size: 10px;  
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 13%;
+    
 }
 
+/*labbel de alguns campos do formulario*/
+#formulario div label {
+    margin: 5% 10px 0 10%;
+    font-size: 13px;
+}
+
+/*div que envolve o botao criar*/
+.text-center {
+    margin: 0 auto 0 auto;
+}
+
+/*id dos campos do formulario*/
+#formGroupExampleInput, #exampleFormControlSelect1 {
+   margin-bottom: 10%;
+   justify-content: center;
+   align-items: center;
+}
 /*botao criar*/
-#singlebutton {
-    font-size: 25px !important;
+#criar {
+    background-color: #E1E1E1 !important;
+    border: 1px solid #000000 !important;
+    color: #000000 !important;
     font-family: Play;
-    padding: 0 10px;
+    font-size: 15px !important;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 
 /*icones redes socias do footer*/
@@ -96,16 +123,21 @@ body {
     font-size: 16px !important
     }
 
-    /* botao participar do jogo e criar*/
-    .btn-primary{
-        font-size: 10px !important;
-        max-width: 60%;
-    }
     
     /*botao criar*/
+     
     #singlebutton {
-        font-size: 15px !important;
+        font-size: 8px !important;
         font-family: Play;
+        margin-bottom: 10%;
     }
 
+    /*formulario*/
+    #formulario {
+        margin-top: 6vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 6px;
+    }
 }
