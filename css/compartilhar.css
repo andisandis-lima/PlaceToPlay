@@ -90,6 +90,7 @@ body {
 #formGroupExampleInput, #exampleFormControlSelect1 {
    margin-bottom: 10%;
    justify-content: center;
+   width: 200px;
    
 }
 /*botao criar*/
