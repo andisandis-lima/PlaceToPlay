@@ -56,7 +56,7 @@ body {
     width: 60%;
     height: 90%;
     background-color:#E1E1E1;
-    margin: 5% auto 8% auto;
+    margin: 5% auto 5% auto;
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -72,6 +72,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 13%;
+
+    margin: 10% 0px auto 0px ;
     
 }
 
@@ -123,7 +125,6 @@ body {
     font-size: 16px !important
     }
 
-    
     /*botao criar*/
      
     #singlebutton {
@@ -140,4 +141,14 @@ body {
         justify-content: center;
         font-size: 6px;
     }
+}
+
+.icones-redes {
+    width: 200px;
+    height: 200px;
+    padding:10px ;
+}
+
+.icones-redes img {
+    width: 80px;
 }
