@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/buscarlugares.css">
-
+    <link rel="stylesheet" href="./css/buscarJogos.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
     <!--Icones do FontAwesome-->
     <link href="fontawesome/css/all.css" rel="stylesheet">
 
@@ -17,7 +18,7 @@
     <!--Css do Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Buscar Lugares</title>
+    <title>Buscar Jogos</title>
 </head>
 <body>
     <header>
@@ -38,7 +39,7 @@
          <!--Titulo da Página-->
          <div class="row justify-content-center">
             <div class="col-auto">
-                <h1><span class="badge rounded-pill bg-success">Busque Lugares Perto de Você</span></h1>
+                <h1><span class="badge rounded-pill bg-success titulo">Busque Jogos Perto de Você</span></h1>
             </div>
         </div>
 
@@ -47,32 +48,32 @@
            
             <form id="formulario">
                 
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 campos" >
                         <label for="formGroupExampleInput"></label>
                         <input type="text" class="form-control" 
                         id="formGroupExampleInput" placeholder="CEP">
                     </div>
 
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 campos">
                         <label for="formGroupExampleInput"></label>
                         <input type="number" class="form-control" 
                         id="formGroupExampleInput" placeholder="N°">
                     </div>
                     
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 campos">
                         <label for="formGroupExampleInput"></label>
                         <input type="text" class="form-control  " 
                         id="formGroupExampleInput" placeholder="Bairro">
                     </div>
               
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 campos">
                         <label for="formGroupExampleInput"></label>
                         <input type="text" class="form-control" 
                         id="formGroupExampleInput" placeholder="Cidade">
                     </div>
                    
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 campos">
                         <label for="exampleFormControlSelect1">UF:</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                           <option>SP</option>
@@ -82,26 +83,26 @@
                         </select>
                      </div>
                 
-                    <div class="col-sm-5">
+                    <div class="col-sm-5 campos">
                         <label for="formGroupExampleInput"></label>                        
                         <input type="text" class="form-control" 
                         id="formGroupExampleInput" placeholder="Nome do Lugar">                    
                     </div>
              
 
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 campos">
                         <label for="formGroupExampleInput"><br></label>
                         <input type="date" class="form-control" 
                         id="formGroupExampleInput" placeholder="Data">
                     </div>
 
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 campos">
                         <label for="formGroupExampleInput"><br></label>
                         <input type="time" class="form-control" 
                         id="formGroupExampleInput" placeholder="Horário">
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 campos">
                         <label for="exampleFormControlSelect1">Esporte:</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                           <option>Futebol</option>
@@ -113,7 +114,7 @@
                 </form> 
             <!--Botão Buscar-->
             <div class="text-center"> 
-                <button id="criar" name="singlebutton" class="btn btn-primary">Buscar</button>
+                <button id="criar" name="singlebutton" class="btn btn-primary botao">Buscar</button>
             </div>
         </div>
 

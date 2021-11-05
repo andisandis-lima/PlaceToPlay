@@ -1,27 +1,27 @@
-
 /*formulario*/
 #formulario {
     font-size: 10px;  
-    margin: 10vh auto 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
+    margin: 10vh auto 0 auto;
 }
 
-/*labbel de alguns campos do formulario*/
+/*labbel de alguns campos do formulario "UF e Esporte"*/
 #formulario div label {
     margin: 5% 10px 8px 5%;
     font-size: 13px;
+    font-family: Play;
 }
 
 /*campos do formulario*/
 .campos {
    margin-bottom: 5%;
-   margin-right: 2%;
-   justify-content: center;
+   justify-content: center
 }
 
 @media only screen and (max-width:500px) {
+    
     /*formulario*/
     #formulario {
         margin-top: 6vh;

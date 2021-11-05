@@ -11,16 +11,17 @@ body {
 }
 
 /* Menu */ 
-
 #menu {
     display: flex;
-    background-color: #E1E1E1
+    background-color: #E1E1E1;
+   
 }
 
 #logo {
     width: 15%;
     margin-left: 1%;
-    margin-top: 0
+    margin-top: 0;
+    
 }
 
 #nav {
@@ -34,71 +35,44 @@ body {
     color: #000000;
     border: 1px solid #000000;
     border-radius: 30px;
-    padding: 1%;
+    padding: 0.5%;
     margin: 2%;
     font-family: Play;
-    font-size: 16px;
+    font-size: 15px;
     background-color: #ffffff;
 }
+
 /* Corpo do Site*/
 
-/*Titulo do site "Busque Lugares Perto de Você"*/
-.rounded-pill{
+/*titulo*/
+.titulo{
     font-family: Play !important;
     margin-top: 5vw;
-    color: #ffffff;
-    font-family: Play;
     font-size: 25px !important;
+    color: #ffffff;
 }
 
-/*quadrado cinza de fundo*/
+/*retangulo cinza de fundo*/
 .fundo {
     width: 60%;
-    height: 90%;
     background-color:#E1E1E1;
-    margin: 5% auto 8% auto;
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     font-family: Play;
+    align-items: center;
+    margin: 2% auto 4% auto
 }
 
-/*formulario*/
-#formulario {
-    font-size: 10px;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10vh auto 0 auto;
-}
-
-/*labbel de alguns campos do formulario "UF e Esporte"*/
-#formulario div label {
-    margin: 5% 10px 8px 5%;
-    font-size: 13px;
-}
-
-/*div que envolve o botao buscar*/
-.text-center {
-    margin: 0 auto 0 auto;
-}
-
-/*id dos campos do formulario*/
-#formGroupExampleInput, #exampleFormControlSelect1 {
-   margin-bottom: 10%;
-   justify-content: center;
-   
-}
-/*botao buscar*/
-#criar {
+/*botoes do site*/
+.botao {
     background-color: #E1E1E1 !important;
     border: 1px solid #000000 !important;
     color: #000000 !important;
     font-family: Play;
     font-size: 15px !important;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin: 10% 20px 20px 0
 }
 
 /*icones redes socias do footer*/
@@ -116,26 +90,33 @@ body {
         font-size: 8px; 
     }
 
-     /*titulo*/
-    .rounded-pill{
+    /*titulo*/
+    .titulo {
     font-size: 16px !important
-    }
+    }s
 
+    /*retangulo cinza de fundo*/
+    .fundo {
+        max-height: 500px;
+        padding: 0;
+    }
     
-    /*botao buscar*/
-     
-    #singlebutton {
+    /*botao*/
+    .botao {
+        max-width: 60%;
         font-size: 8px !important;
-        font-family: Play;
-        margin-bottom: 10%;
-    }
-
-    /*formulario*/
-    #formulario {
-        margin-top: 6vh;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        font-size: 6px;
+        font-family: Play;  
     }
 }
+/*
+buscar jogo
+
+
+corfirm jogo
+
+
+criar jogo
+
+result busca
+
+result jogo*/
