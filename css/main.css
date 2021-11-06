@@ -2,35 +2,36 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    box-sizing: border-box;    
+    box-sizing: border-box   
 }
 
 body {
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden
 }
 
 /* Menu */ 
 #menu {
     display: flex;
-    background-color: #E1E1E1;
-   
+    background-color: #E1E1E1
 }
 
+/*logo do canto superior esquerdo*/
 #logo {
     width: 15%;
     margin-left: 1%;
-    margin-top: 0;
-    
+    margin-top: 0
 }
 
+/*div que englova os botoes do menu*/
 #nav {
     width: 100vw;
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse
 }
 
+/*texto do menu*/
 #nav a {
     color: #000000;
     border: 1px solid #000000;
@@ -39,7 +40,7 @@ body {
     margin: 2%;
     font-family: Play;
     font-size: 15px;
-    background-color: #ffffff;
+    background-color: #ffffff
 }
 
 /* Corpo do Site*/
@@ -49,7 +50,7 @@ body {
     font-family: Play !important;
     margin-top: 5vw;
     font-size: 25px !important;
-    color: #ffffff;
+    color: #ffffff
 }
 
 /*retangulo cinza de fundo*/
@@ -65,6 +66,41 @@ body {
     margin: 2% auto 4% auto
 }
 
+/*formulario*/
+#formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 10px;  
+    margin: 10vh auto 0 auto;
+}
+
+/*labbel de alguns campos do formulario "UF e Esporte"*/
+#formulario div label {
+    margin: 5% 10px 8px 5%;
+    font-size: 13px;
+    font-family: Play;
+}
+
+/*campos do formulario*/
+.campos {
+    margin-bottom: 5%;
+    justify-content: center
+}
+
+/*card de informacoes*/
+.card {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-family: Play;
+}
+
+ /*imagem dentro card*/
+.card-img-top {
+    max-width: 60%
+}
+
 /*botoes do site*/
 .botao {
     background-color: #E1E1E1 !important;
@@ -77,46 +113,48 @@ body {
 
 /*icones redes socias do footer*/
 .icones {
-    color: #000000;
+    color: #000000
 }
 
 .icones i {
-    margin: 1% 1%;
+    margin: 1% 1%
 }
 
 @media only screen and (max-width:500px) {
+
     /*texto do menu*/
     #nav a {
-        font-size: 8px; 
+        font-size: 8px;
+        margin-right: 10px
     }
 
     /*titulo*/
     .titulo {
     font-size: 16px !important
-    }s
-
-    /*retangulo cinza de fundo*/
-    .fundo {
-        max-height: 500px;
-        padding: 0;
     }
-    
+
+    .fundo {
+        width: 80%;
+    }
+
+    /*formulario*/
+    #formulario {
+        margin-top: 6vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 6px;
+    }
+
+    /*texto dentro do card*/
+    .card-text {
+        font-size: 8px;
+    }
+
     /*botao*/
     .botao {
         max-width: 60%;
         font-size: 8px !important;
-        font-family: Play;  
+        font-family: Play
     }
 }
-/*
-buscar jogo
-
-
-corfirm jogo
-
-
-criar jogo
-
-result busca
-
-result jogo*/

@@ -1,17 +1,7 @@
 
-/*card de informacoes*/
+/*card de informacoes (configuração global no main.css)*/
 .card {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
     margin-bottom: 10%;
-    font-family: Play
-}
-
-
-/*imagem dentro card*/
-.card-img-top {
-    max-width: 60%
 }
 
 /* botao Participar Do Jogo dentro do card*/
@@ -25,11 +15,6 @@
 }
 
 @media only screen and (max-width:500px) {
-
-    /*texto dentro do card, abaixo da foto*/
-    .card-text {
-        font-size: 8px
-    }
     
     /* botao participar do jogo*/
     .participar {
