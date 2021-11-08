@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/compartilhar.css">
+    <link rel="stylesheet" href="./css/participantes.css">
 
     <!--Icones do FontAwesome-->
     <link href="fontawesome/css/all.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Compartilhar</title>
+    <title>Participantes</title>
 </head>
 
 <body>
@@ -41,49 +41,63 @@
         <!--Titulo da Página-->
         <div class="row justify-content-center">
             <div class="col-auto">
-                <h1><span class="badge rounded-pill bg-success">Compartilhar</span></h1>
+                <h1><span class="badge rounded-pill bg-success">Participantes</span></h1>
             </div>
         </div>
 
         <div class="fundo">
             <!--Formulário-->
+
+            <h2><span class="badge rounded-pill bg-success">Participantes: <a class="btn btn-light" href="#"
+                        role="button">5 / 20</a></span></h2>
+
+
             <form id="formulario">
-
-                <div class="col-sm-5">
-                    <label for="formGroupExampleInput"></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder="Amigos do Place To Play:">
-                </div>
-
-                <div class="col-sm-5">
-                    <label for="formGroupExampleInput"></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome do Usuário">
-                </div>
-
-                <div class="icones-redes">
-                    <div class="text-center">
-                        <a href="">
-                            <img src="./img/whatsapp_icon.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="./img/facebook_icon.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="./img/instagram_icon.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="./img/twitter_icon.png" alt="">
-                        </a>
-                    </div>
+                <div class="dentro-form">
+                    <input type="text" placeholder="Nome do jogador">
+                    <button type="button">Excluir participante</button>
+                    <br><br>
+                    <input type="text" placeholder="Nome do jogador">
+                    <button type="button">Excluir participante</button>
+                    <br><br>
+                    <input type="text" placeholder="Nome do jogador">
+                    <button type="button">Excluir participante</button>
+                    <br><br>
+                    <input type="text" placeholder="Nome do jogador">
+                    <button type="button">Excluir participante</button>
+                    <br><br>
+                    <input type="text" placeholder="Nome do jogador">
+                    <button type="button">Excluir participante</button>
+                    <br><br>
                 </div>
             </form>
-            <!--Botão Criar-->
-            <div class="text-center">
-                <button id="criar" name="singlebutton" class="btn btn-primary">Enviar</button>
+
+            <section>
+                <h2>Convidar outros amigos</h2>
+            </section>
+
+            <div>
+                <span>Amigos do Place To Play:
+                    <input type="text" placeholder="Nome do Usuário"></span>
+            </div>
+
+            <div class="icones-redes">
+                <div class="text-center">
+                    <a href="">
+                        <img src="./img/whatsapp_icon.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/facebook_icon.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/instagram_icon.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/twitter_icon.png" alt="">
+                    </a>
+                </div>
             </div>
         </div>
-
-
     </main>
     <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.1);">
 
