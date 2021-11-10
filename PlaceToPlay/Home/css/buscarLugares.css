@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('https://besthqwallpapers.com/Uploads/4-5-2019/90166/basketball-ball-texture-4k-close-up-basketball-orange-ball.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+
+#menu {
+    border: solid 1px black;
+    display: flex;
+    background-color: #828282;
+
+}
+
+#logo {
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 0;
+    position: fixed;
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#nav a {
+    color: #000000;
+    border: 2.5px solid #000000;
+    border-radius: 30px;
+    padding: 1%;
+    margin: 2%;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+
+#container1{
+    margin: 0 auto;
+    width: 40vw;
+    background-color: rgb(0, 0, 0);
+    border: solid 5px rgb(255, 0, 0);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+.paragrafo1{
+    color: rgb(16, 114, 32);
+    text-align: center;
+    font-family: 'Play', sans-serif ;
+    font-size: 3em;
+}
+
+#container2{
+    margin: 0 auto;
+    height: 25vh;
+    width: 20vw;
+    border: solid 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foto{
+    width: 40vw;
+    height: 30vh;
+    margin-top: 20px;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.foto:nth-child(1){
+    animation-delay: 0s;
+}
+.foto:nth-child(2){
+    animation-delay: 5s;
+}
+.foto:nth-child(3){
+    animation-delay: 10s;
+}
+.foto:nth-child(4){
+    animation-delay: 15s;
+}
+
+
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        transform:scale(1.1,1.1);
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+
+
+@media only screen and (max-width:650px) {
+    #nav a {
+        font-size: 8px; 
+          
+    }
+}
