@@ -43,10 +43,10 @@
 
         <div class="fundo">
             <!--Formulário-->
-            <form id="formulario">
+            <form id="formulario" action="./resultadoBusca.html" method="post">
                 <div class="col-sm-4 campos" >
                     <label for="formGroupExampleInput"></label>
-                    <input type="text" class="form-control" 
+                    <input type="number" class="form-control" 
                     id="formGroupExampleInput" placeholder="CEP">
                 </div>
 
@@ -65,12 +65,13 @@
                 <div class="col-sm-4 campos">
                     <label for="formGroupExampleInput"></label>
                     <input type="text" class="form-control" 
-                    id="formGroupExampleInput" placeholder="Cidade">
+                    id="formGroupExampleInput" placeholder="Cidade" required> 
                 </div>
                    
                 <div class="col-sm-2 campos">
-                    <label for="exampleFormControlSelect1">UF:</label>
+                    <label for="exampleFormControlSelect1"></label>
                     <select class="form-control" id="exampleFormControlSelect1">
+                        <option selected disabled>Estado:</option>
                         <option>SP</option>
                         <option>RJ</option>
                         <option>BA</option>
@@ -84,20 +85,21 @@
                 </div>
 
                 <div class="col-sm-4 campos">
-                    <label for="formGroupExampleInput"><br></label>
+                    <label for="formGroupExampleInput"></label>
                     <input type="date" class="form-control" 
                     id="formGroupExampleInput" placeholder="Data">
                 </div>
 
                 <div class="col-sm-3 campos">
-                    <label for="formGroupExampleInput"><br></label>
+                    <label for="formGroupExampleInput"></label>
                     <input type="time" class="form-control" 
                     id="formGroupExampleInput" placeholder="Horário">
                 </div>
                     
                 <div class="col-sm-4 campos">
-                    <label for="exampleFormControlSelect1">Esporte:</label>
+                    <label for="exampleFormControlSelect1"></label>
                     <select class="form-control" id="exampleFormControlSelect1">
+                        <option selected disabled>Esporte:</option>
                         <option>Futebol</option>
                         <option>Basquete</option>
                         <option>Volêi</option>
@@ -106,7 +108,7 @@
             </form> 
             <!--Botão Buscar-->
             <div class="text-center"> 
-                <button id="criar" name="singlebutton" class="btn btn-primary botao">Buscar</button>
+                <button type="submit" id="criar" name="singlebutton" class="btn btn-primary botao">Buscar</button>
             </div>
         </div>  
     </main>
