@@ -10,12 +10,12 @@ h3{
 }
 
 .conta{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 /*Caso alguém for alterar a cor do menu de cadastro alterar na id bg-color, onde também está o gradient*/
 .cadastro {
-    position:absolute;
+    position:fixed;
     right: 90px;
     bottom: 90px;
     width: 400px;
@@ -25,7 +25,7 @@ h3{
 }
 
 a:link, a:visited, a:hover, a:active{
-    color: white;
+    color: rgba(255, 255, 255, 0.993);
     text-decoration: none;
 }
 
@@ -58,6 +58,10 @@ a:link, a:visited, a:hover, a:active{
     100%{background-position:0% 53%}
 }
 
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
 #inpt{
     background: rgb(196,196,196); /*Gradient dos inputs*/
     background: linear-gradient(0deg, rgba(196,196,196,0.7819502801120448) 0%, rgba(196,196,196,0.7819502801120448) 100%);
@@ -65,6 +69,7 @@ a:link, a:visited, a:hover, a:active{
     border-radius: 3px;
     border: none;
 }
+
 
 .main{
     overflow-x: hidden;
