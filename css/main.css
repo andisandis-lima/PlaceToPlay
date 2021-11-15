@@ -7,47 +7,18 @@
 
 body {
     overflow-y: scroll;
-    overflow-x: hidden
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
 }
 
-/* Menu */ 
-#menu {
-    display: flex;
-    background-color: #E1E1E1
-}
-
-/*logo do canto superior esquerdo*/
-#logo {
-    width: 15%;
-    margin-left: 1%;
-    margin-top: 0
-}
-
-/*div que englova os botoes do menu*/
-#nav {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse
-}
-
-/*texto do menu*/
-#nav a {
-    color: #000000;
-    border: 1px solid #000000;
-    border-radius: 30px;
-    padding: 0.5%;
-    margin: 2%;
+nav{
     font-family: Play;
-    font-size: 15px;
-    background-color: #ffffff
 }
-
-/* Corpo do Site*/
 
 /*titulo*/
 .titulo{
-    font-family: Play !important;
+    font-family: Play;
     margin-top: 5vw;
     font-size: 25px !important;
     color: #ffffff
@@ -118,17 +89,12 @@ body {
     margin: 1% 1%
 }
 
-@media only screen and (max-width:500px) {
 
-    /*texto do menu*/
-    #nav a {
-        font-size: 8px;
-        margin-right: 10px
-    }
+@media only screen and (max-width:500px) {
 
     /*titulo*/
     .titulo {
-    font-size: 16px !important
+        font-size: 16px !important
     }
 
     .fundo {
