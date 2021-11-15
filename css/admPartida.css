@@ -2,7 +2,7 @@
 /*titulo "Local"*/
 .adm {
     color: #000000;
-    font-family: Play;
+    font-family: Play !important;
     font-size: 25px !important;
     margin-top: 5vw;
     margin-left: 3vw;
@@ -51,6 +51,7 @@
 
     .editar {
         margin-right: 5vw;
+        font-size: 9px !important; 
     }
 
     .editar2 {
