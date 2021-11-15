@@ -77,8 +77,12 @@ body {
 
 /*campos do formulario*/
 .campos {
-    margin-bottom: 5%;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 40px ;
+}
+
+.row {
+    justify-content: center;
 }
 
 /*card de informacoes*/
@@ -101,7 +105,8 @@ body {
     color: #000000 !important;
     font-family: Play;
     font-size: 15px !important;
-    margin: 10% 20px 20px 0
+    margin: 10% 20px 20px;
+    
 }
 
 /*icones redes socias do footer*/
@@ -147,7 +152,7 @@ body {
     /*botao*/
     .botao {
         max-width: 60%;
-        font-size: 8px !important;
+        font-size: 20px !important;
         font-family: Play
     }
 }

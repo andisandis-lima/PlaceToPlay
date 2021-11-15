@@ -44,72 +44,79 @@
         <div class="fundo">
             <!--Formulário-->
             <form id="formulario" action="./resultadoBusca.html" method="post">
-                <div class="col-sm-4 campos" >
-                    <label for="formGroupExampleInput"></label>
-                    <input type="number" class="form-control" 
-                    id="formGroupExampleInput" placeholder="CEP">
-                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 campos" >
+                            <label for="formGroupExampleInput"></label>
+                            <input type="number" class="form-control" 
+                            id="formGroupExampleInput" placeholder="CEP">
+                        </div>
 
-                <div class="col-sm-3 campos">
-                   <label for="formGroupExampleInput"></label>
-                    <input type="number" class="form-control" 
-                    id="formGroupExampleInput" placeholder="N°">
-                </div>
-            
-                <div class="col-sm-4 campos">
-                    <label for="formGroupExampleInput"></label>
-                    <input type="text" class="form-control  " 
-                    id="formGroupExampleInput" placeholder="Bairro">
-                </div>
-              
-                <div class="col-sm-4 campos">
-                    <label for="formGroupExampleInput"></label>
-                    <input type="text" class="form-control" 
-                    id="formGroupExampleInput" placeholder="Cidade" required> 
-                </div>
-                   
-                <div class="col-sm-2 campos">
-                    <label for="exampleFormControlSelect1"></label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option selected disabled>Estado:</option>
-                        <option>SP</option>
-                        <option>RJ</option>
-                        <option>BA</option>
-                    </select>
-                </div>
-                
-                <div class="col-sm-5 campos">
-                    <label for="formGroupExampleInput"></label>                        
-                    <input type="text" class="form-control" 
-                    id="formGroupExampleInput" placeholder="Nome do Lugar">                    
-                </div>
-
-                <div class="col-sm-4 campos">
-                    <label for="formGroupExampleInput"></label>
-                    <input type="date" class="form-control" 
-                    id="formGroupExampleInput" placeholder="Data">
-                </div>
-
-                <div class="col-sm-3 campos">
-                    <label for="formGroupExampleInput"></label>
-                    <input type="time" class="form-control" 
-                    id="formGroupExampleInput" placeholder="Horário">
-                </div>
+                        <div class="col-sm-3 campos">
+                        <label for="formGroupExampleInput"></label>
+                            <input type="number" class="form-control" 
+                            id="formGroupExampleInput" placeholder="N°">
+                        </div>
                     
-                <div class="col-sm-4 campos">
-                    <label for="exampleFormControlSelect1"></label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option selected disabled>Esporte:</option>
-                        <option>Futebol</option>
-                        <option>Basquete</option>
-                        <option>Volêi</option>
-                    </select>
+                        <div class="col-sm-4 campos">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control  " 
+                            id="formGroupExampleInput" placeholder="Bairro">
+                        </div>
+                    </div>
+                    <div class="row">             
+                        <div class="col-sm-4 campos">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control" 
+                            id="formGroupExampleInput" placeholder="Cidade" required> 
+                        </div>
+                        
+                        <div class="col-sm-2 campos">
+                            <label for="exampleFormControlSelect1"></label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option selected disabled>UF</option>
+                                <option>SP</option>
+                                <option>RJ</option>
+                                <option>BA</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-sm-5 campos">
+                            <label for="formGroupExampleInput"></label>                        
+                            <input type="text" class="form-control" 
+                            id="formGroupExampleInput" placeholder="Nome do Lugar">                    
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 campos">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="date" class="form-control" 
+                            id="formGroupExampleInput" placeholder="Data" required>
+                        </div>
+
+                        <div class="col-sm-3 campos">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="time" class="form-control" 
+                            id="formGroupExampleInput" placeholder="Horário" required>
+                        </div>
+                            
+                        <div class="col-sm-4 campos">
+                            <label for="exampleFormControlSelect1"></label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option selected disabled>Esporte:</option>
+                                <option>Futebol</option>
+                                <option>Basquete</option>
+                                <option>Volêi</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--Botão Buscar-->
+                    <div class="text-center"> 
+                        <button type="submit" id="criar" name="singlebutton" class="btn btn-primary botao">Buscar</button>
+                    </div>
                 </div>
             </form> 
-            <!--Botão Buscar-->
-            <div class="text-center"> 
-                <button type="submit" id="criar" name="singlebutton" class="btn btn-primary botao">Buscar</button>
-            </div>
+           
         </div>  
     </main>
 

@@ -1,12 +1,5 @@
-
-/*formulario (configuração global no main.css)*/
-#formulario {
-    justify-content: flex-end
-}
-
-
-
-/*campos do formulario (configuração global no main.css)*/
-.campos {
-   margin-right: 2%
+/*alinhamento dos campos do formulario*/
+.row {
+    justify-content: flex-end;
+    padding-right: 5%;
 }
