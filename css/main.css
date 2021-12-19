@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box   
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    font-family: Play;
+}
+
+/*titulo*/
+.titulo{
+    font-family: Play;
+    margin-top: 5vw;
+    font-size: 25px !important;
+    color: #ffffff
+}
+
+/*retangulo cinza de fundo*/
+.fundo {
+    width: 60%;
+    background-color:#E1E1E1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: Play;
+    align-items: center;
+    margin: 2% auto 4% auto
+}
+
+/*formulario*/
+#formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 10px;  
+    margin: 10vh auto 0 auto;
+}
+
+/*campos do formulario*/
+.campos {
+    justify-content: center;
+    margin-bottom: 40px ;
+}
+
+.row {
+    justify-content: center;
+}
+
+/*card de informacoes*/
+.card {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-family: Play;
+}
+
+ /*imagem dentro card*/
+.card-img-top {
+    max-width: 60%
+}
+
+/*botoes do site*/
+.botao {
+    background-color: #E1E1E1 !important;
+    border: 1px solid #000000 !important;
+    color: #000000 !important;
+    font-family: Play;
+    font-size: 15px !important;
+    margin: 10% 20px 20px;
+    
+}
+
+/*icones redes socias do footer*/
+.icones {
+    color: #000000
+}
+
+.icones i {
+    margin: 1% 1%
+}
+
+
+@media only screen and (max-width:500px) {
+
+    /*titulo*/
+    .titulo {
+        font-size: 16px !important
+    }
+
+    .fundo {
+        width: 80%;
+    }
+
+    /*formulario*/
+    #formulario {
+        margin-top: 6vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 6px;
+    }
+
+    /*texto dentro do card*/
+    .card-text {
+        font-size: 8px;
+    }
+
+    /*botao*/
+    .botao {
+        max-width: 60%;
+        font-size: 15px !important;
+        font-family: Play
+    }
+}

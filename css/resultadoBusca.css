@@ -1,0 +1,25 @@
+
+/*card de informacoes (configuração global no main.css)*/
+.card {
+    margin-bottom: 10%;
+}
+
+/* botao Participar Do Jogo dentro do card*/
+.participar {
+    background-color: #E1E1E1 !important;
+    border: 1px solid #000000 !important;
+    color: #000000 !important;
+    font-family: Play;
+    font-size: 15px !important;
+    margin-top: 10px;
+    margin-bottom: 10%
+}
+
+@media only screen and (max-width:500px) {
+    
+    /* botao participar do jogo*/
+    .participar {
+        font-size: 8px !important;
+        font-family: Play
+    }
+}
