@@ -1,0 +1,5 @@
+/*alinhamento dos campos do formulario*/
+.row {
+    justify-content: flex-end;
+    padding-right: 5%;
+}

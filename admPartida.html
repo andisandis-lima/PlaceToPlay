@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/admPartida.css">
+
+    <!--Icones do FontAwesome-->
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <!--Fonte Play importada do Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+    <!--Css do Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Administrar Partida</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Place To Play</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ml-4">
+                    <a class="nav-link" href="#">Como Funciona</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown ml-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Jogos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Criar Jogo</a>
+                          <a class="dropdown-item" href="#">Encontrar Jogo</a>
+                        </div>
+
+                    <li class="nav-item ml-4">
+                    <a class="nav-link" href="#">Cadastro/Login</a>
+            </div>
+          </nav>
+    </header>
+    
+    <main>
+         <!--Titulo da Página-->
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <h1><span class="badge rounded-pill bg-success titulo">Administrar Partida</span></h1>
+            </div>
+        </div>
+        <!--Conteudo-->
+        <div class="fundo">
+            <div class="adm">
+                <p>Local:</p>
+            </div>
+            <div class="card" style="width: 90%;">
+                <img class="card-img-top" src="./img/logoPlaceToPlay.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Basquete - 25/10/2021 às 21:00</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">  
+                            Rua Tal, N° 10,<br>
+                            Bairro Centro, <br>
+                            CEP 07151-522, <br>        
+                            Quadra do SESC. <br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button id="singlebutton" name="singlebutton" class="btn btn-primary botao editar">Editar
+            </button>
+            <div class="editar2">
+                <p class="participantes">Participantes:</p>           
+                <ul class="list-group">
+                    <li class="list-group-item parti">05/20</li>
+                </ul>
+            </div>
+            <button id="singlebutton" name="singlebutton" class="btn btn-primary botao editar">Gerenciar Participantes</button>
+            <div class="col-md-auto text-center" id="voltar" >  
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary botao">Voltar</button> 
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary botao">Apagar Jogo</button>
+            </div>  
+        </div> 
+    </main>
+
+    <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.1);">
+        <div class="icones">
+            <i class="fa fa-linkedin fa-2x"></i>
+            <i class="fa fa-github-square fa-2x"></i>
+        </div>
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2); font-family: Play;">
+          © 2021 Copyright
+          <a class="text-dark" href="a" ></a>
+        </div>
+    </footer>
+    
+    <!--JavaScript do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
