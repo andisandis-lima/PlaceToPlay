@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;    
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Menu */ 
+
+#menu {
+    display: flex;
+    background-color: #E1E1E1
+}
+
+#logo {
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 0
+}
+
+#nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#nav a {
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 1%;
+    margin: 2%;
+    font-family: Play;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+/* Corpo do Site*/
+
+/*Titulo do site "Crie um jogo"*/
+.rounded-pill{
+    font-family: Play !important;
+    margin-top: 5vw;
+    color: #ffffff;
+    font-family: Play;
+    font-size: 25px !important;
+}
+
+/*quadrado cinza de fundo*/
+.fundo {
+    width: 60%;
+    height: 90%;
+    background-color:#E1E1E1;
+    margin: 5% auto 5% auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: Play;
+    text-align: center;
+}
+
+/*formulario*/
+#formulario {
+    font-size: 10px;  
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 13%;
+    margin: 2% 0px  ;
+}
+
+/*labbel de alguns campos do formulario*/
+#formulario div label {
+    margin: 5% 10px 0 10%;
+    font-size: 13px;
+}
+
+/*div que envolve o botao criar*/
+.text-center {
+    margin: 0 auto 0 auto;
+}
+
+/*id dos campos do formulario*/
+#formGroupExampleInput {
+   margin-bottom: 10%;
+   justify-content: center;
+   
+}
+/*botao criar*/
+#criar {
+    background-color: #E1E1E1 !important;
+    border: 1px solid #000000 !important;
+    color: #000000 !important;
+    font-family: Play;
+    font-size: 15px !important;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+/*icones redes socias do footer*/
+.icones {
+    color: #000000;
+}
+
+.icones i {
+    margin: 1% 1%;
+}
+
+@media only screen and (max-width:500px) {
+    /*texto do menu*/
+    #nav a {
+        font-size: 8px; 
+    }
+
+     /*titulo*/
+    .rounded-pill{
+    font-size: 16px !important
+    }
+
+    /*botao criar*/
+     
+    #singlebutton {
+        font-size: 8px !important;
+        font-family: Play;
+        margin-bottom: 10%;
+    }
+
+    /*formulario*/
+    #formulario {
+        margin-top: 6vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 6px;
+    }
+}
+
+.icones-redes {
+    width: 200px;
+    height: 200px;
+    padding:10px ;
+
+}
+
+.icones-redes img {
+    width: 80px;
+}
